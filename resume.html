@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divyanshu negi</title>
+    <link rel="stylesheet" href="style.css?v=1">
+    <link rel="stylesheet" href="resume.css?v=1">
+    <link rel="stylesheet" href="media.css?v=1">
+
+</head>
+<body>
+     <header>
+    <nav>
+        <div class="left">Divyanshu Negi - Portfolio</div>
+
+        <!-- Hamburger icon -->
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#0ff" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm0-4a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm0-4a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11z"/>
+            </svg>
+        </div>
+
+        <div class="right">
+            <ul id="nav-links">
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="resume.html"> Resume</a></li>
+                <li><a href="project.html"> Projects</a></li>
+                <li><a href="contact.html"> Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+    <section class="resume-section">
+    <h2>Download My Resume</h2>
+    <a href="divyanshuresume.pdf" download>
+      <button id="about2">Resume</button>
+    </a>
+  </section>
+
+  <footer class="footer">
+            <div class="footer-container">
+                <p>📧 <a href="mailto:divyanshunegi9458@gmail.com">divyanshunegi9458@gmail.com</a></p>
+                <p>© 2025 All rights reserved | <strong>Divyanshu Negi</strong></p>
+            </div>
+        </footer>
+<script>
+  function toggleMenu() {
+      document.getElementById("nav-links").classList.toggle("show");
+    }
+  </script>
+</body>
+</html>

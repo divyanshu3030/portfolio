@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divyanshu Negi</title>
+  <link rel="stylesheet" href="style.css?v=1">
+  <link rel="stylesheet" href="media.css?v=1">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Divyanshu Negi - Portfolio</div>
+
+      <!-- Hamburger icon -->
+      <div class="menu-toggle" onclick="toggleMenu()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#0ff" class="bi bi-list"
+          viewBox="0 0 16 16">
+          <path fill-rule="evenodd"
+            d="M2.5 12.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm0-4a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm0-4a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11z" />
+        </svg>
+      </div>
+
+      <div class="right">
+        <ul id="nav-links">
+          <li><a href="index.html"> Home</a></li>
+          <li><a href="resume.html"> Resume</a></li>
+          <li><a href="project.html"> Projects</a></li>
+          <li><a href="contact.html"> Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section id="projects" class="projects-section">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+      <div class="project-image">
+        <img src="image/music.png" alt="Music Website Project">
+      </div>
+      <div class="project-info">
+        <h3>🎵 Music Website</h3>
+        <p>A responsive music site made using HTML, CSS, JavaScript, PHP, and MySQL. It includes login/signup, form
+          validation, a custom audio player with play/pause, next/previous, shuffle, download, and search features.
+          Works smoothly on desktop and mobile devices.</p>
+        <a href="https://musicstep.infinityfreeapp.com" target="_blank" class="project-link">Visit Site</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-image">
+        <img src="image/tictac.png" alt="Tic Tac Toe Game">
+      </div>
+      <div class="project-info">
+        <h3>🎮 Tic Tac Toe Game</h3>
+        <p>A simple two-player game built using HTML, CSS, and JavaScript. It shows win/draw messages and includes a
+          reset button. The layout is responsive and works well on all screen sizes.</p>
+        <a href="https://divyanshugame.rf.gd" target="_blank" class="project-link">Play Game</a>
+      </div>
+    </div>
+  </section>
+<footer class="footer">
+            <div class="footer-container">
+                <p>📧 <a href="mailto:divyanshunegi9458@gmail.com">divyanshunegi9458@gmail.com</a></p>
+                <p>© 2025 All rights reserved | <strong>Divyanshu Negi</strong></p>
+            </div>
+        </footer>
+  <script>
+  function toggleMenu() {
+      document.getElementById("nav-links").classList.toggle("show");
+    }
+  </script>
+</body>
+
+</html>

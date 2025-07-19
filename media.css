@@ -1,0 +1,120 @@
+@media screen and (max-width: 1700px){
+    .footer {
+    margin-top: 10%;
+
+}
+}
+@media screen and (max-width: 1600px){
+    .footer {
+    margin-top: 20%;
+
+}
+}
+
+@media screen and (max-width: 1200px){
+    .footer {
+    margin-top: 30%;
+
+}
+.leftsection {
+    font-size: 2.4rem;
+}
+}
+
+@media screen and (max-width: 990px){
+    .footer {
+    margin-top: 30%;
+
+}
+.leftsection {
+    font-size: 2rem;
+}
+}
+
+@media screen and (max-width: 815px){
+    .footer {
+    margin-top: 50%;
+
+}
+.leftsection {
+    font-size: 1.9rem;
+}
+.left {
+    font-size: 1.2rem;
+}
+nav ul {
+    font-size: medium;
+}
+}
+
+@media screen and (max-width: 750px){
+.first>div {
+    width: 44%;
+}
+.menu-toggle {
+        display: block;
+        cursor: pointer;
+        margin-left: 233px;
+    }
+
+
+.right ul {
+    display: none;
+    flex-direction: column;
+    background-color: rgba(0, 0, 50, 0.95);
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #0ff;
+    z-index: 1000;
+}
+
+.right ul.show {
+    display: flex;
+}
+
+.right ul li {
+    margin: 12px 0;
+}
+}
+
+@media screen and (max-width: 600px){
+    .left {
+    font-size: 1rem;
+}
+}
+@media screen and (max-width: 500px){
+    .leftsection {
+    font-size: 1.5rem;
+}
+.about-text p {
+    font-size: 15px;
+}
+.first>div {
+    width: 44%;
+}
+
+.menu-toggle {
+        display: block;
+        cursor: pointer;
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .leftsection {
+    font-size: 1.3rem;
+}
+.about-text p {
+    font-size: 11px;
+}
+
+.menu-toggle {
+        display: block;
+        cursor: pointer;
+        margin-left: 150px;
+    }
+
+}

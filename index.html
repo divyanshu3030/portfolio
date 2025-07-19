@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divyanshu Negi </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Special+Gothic+Expanded+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=1">
+    <link rel="stylesheet" href="media.css?v=1">
+</head>
+
+<body>
+    <header>
+    <nav>
+        <div class="left">Divyanshu Negi - Portfolio</div>
+
+        <!-- Hamburger icon -->
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#0ff" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm0-4a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm0-4a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11z"/>
+            </svg>
+        </div>
+
+        <div class="right">
+            <ul id="nav-links">
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="resume.html"> Resume</a></li>
+                <li><a href="project.html"> Projects</a></li>
+                <li><a href="contact.html"> Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+
+    <main>
+        <section class="first">
+            <div class="leftsection">
+                Hi, my name is <span class="purple">Divyanshu Negi</span>.
+                <div>I’m passionate about</div>
+                <span id="element"></span>
+                <br>
+                
+            </div>
+
+            <div class="rightsection">
+                <img src="image1.webp" alt="">
+            </div>
+        </section>
+
+        <hr>
+        <h2 class="aboutside">About Me..</h2>
+
+        <div class="aboutcard-flex">
+            <div class="about-image">
+                <img src="image/rishikesh.jpg" alt="Divyanshu Negi" />
+            </div>
+            <div class="about-text">
+                <p>Hi, I’m <strong>Divyanshu Negi</strong>. I'm passionate about web development and enjoy building
+                    websites that are visually appealing and function smoothly. I’m always eager to learn new things and
+                    grow my skills every day.</p>
+
+                <a href="about.html">
+                    <button id="about1">Know More..</button>
+                </a>
+            </div>
+        </div>
+
+        <hr>
+
+        <footer class="footer">
+            <div class="footer-container">
+                <p>📧 <a href="mailto:divyanshunegi9458@gmail.com">divyanshunegi9458@gmail.com</a></p>
+                <p>© 2025 All rights reserved | <strong>Divyanshu Negi</strong></p>
+            </div>
+        </footer>
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer', 'Video Editing!...'],
+            typeSpeed: 50,
+        });
+
+        
+    function toggleMenu() {
+        document.getElementById("nav-links").classList.toggle("show");
+    }
+
+
+    </script>
+
+</body>
+
+</html>
