@@ -37,7 +37,7 @@
   <section id="projects" class="projects-section">
     <h2>Projects</h2>
 
-    <div class="project-card">
+    <div class="project-card hidden">
       <div class="project-image">
         <img src="image/music.png" alt="Music Website Project">
       </div>
@@ -50,7 +50,41 @@
       </div>
     </div>
 
-    <div class="project-card">
+    <div class="project-card hidden">
+      <div class="project-image">
+        <img src="image/disaster.png" alt="Disaster Management System">
+      </div>
+      <div class="project-info">
+        <h3>AI-Based Disaster Management System</h3>
+        <p>Developed an AI-Based Disaster Management and Prediction System that analyzes historical disaster data and
+          predicts future disaster occurrences using an LSTM deep learning model. The project involved data
+          preprocessing, normalization, and time-series forecasting using Python, TensorFlow, Pandas, and NumPy.
+          Additionally, designed and deployed an interactive web application to provide disaster insights, prediction
+          results, and support data-driven decision-making.
+        </p>
+        <a href="https://divyanshu3030.github.io/Disaster-management/" target="_blank" class="project-link">Visit
+          Site</a>
+      </div>
+    </div>
+
+    <div class="project-card hidden">
+      <div class="project-image">
+        <img src="image/traffic.png" alt="Road Accident Prediction System">
+      </div>
+      <div class="project-info">
+        <h3>AI-Based Road Accident Prediction System</h3>
+        <p>Developed a machine learning-based road accident prediction system using Python, Random Forest, and LSTM
+          models to estimate accident risk based on factors such as weather conditions, road conditions, driver details,
+          and traffic controls. Performed data cleaning, preprocessing, feature encoding, and model training using
+          Pandas, NumPy, Scikit-learn, and TensorFlow. The system provides real-time accident probability predictions
+          and risk analysis to support safer driving decisions.
+        </p>
+        <a href=" https://divyanshu3030.github.io/trafficprediction/" target="_blank" class="project-link">Visit
+          Site</a>
+      </div>
+    </div>
+
+    <div class="project-card hidden">
       <div class="project-image">
         <img src="image/tictac.png" alt="Tic Tac Toe Game">
       </div>
@@ -62,16 +96,32 @@
       </div>
     </div>
   </section>
-<footer class="footer">
-            <div class="footer-container">
-                <p>📧 <a href="mailto:divyanshunegi9458@gmail.com">divyanshunegi9458@gmail.com</a></p>
-                <p>© 2025 All rights reserved | <strong>Divyanshu Negi</strong></p>
-            </div>
-        </footer>
+  <footer class="footer">
+    <div class="footer-container">
+      <p>📧 <a href="mailto:divyanshunegi9458@gmail.com">divyanshunegi9458@gmail.com</a></p>
+      <p>© 2025 All rights reserved | <strong>Divyanshu Negi</strong></p>
+    </div>
+  </footer>
   <script>
-  function toggleMenu() {
+    function toggleMenu() {
       document.getElementById("nav-links").classList.toggle("show");
     }
+
+    const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+        } else {
+            entry.target.classList.remove("show");
+        }
+    });
+}, {
+    threshold: 0.2
+});
+
+document.querySelectorAll(".hidden").forEach((el) => {
+    observer.observe(el);
+});
   </script>
 </body>
 
