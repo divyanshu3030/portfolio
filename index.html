@@ -16,26 +16,28 @@
 
 <body>
     <header>
-    <nav>
-        <div class="left">Divyanshu Negi - Portfolio</div>
+        <nav>
+            <div class="left">Divyanshu Negi - Portfolio</div>
 
-        <!-- Hamburger icon -->
-        <div class="menu-toggle" onclick="toggleMenu()">
-            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#0ff" class="bi bi-list" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M2.5 12.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm0-4a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm0-4a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11z"/>
-            </svg>
-        </div>
+            <!-- Hamburger icon -->
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#0ff" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm0-4a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm0-4a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11z" />
+                </svg>
+            </div>
 
-        <div class="right">
-            <ul id="nav-links">
-                <li><a href="index.html"> Home</a></li>
-                <li><a href="resume.html"> Resume</a></li>
-                <li><a href="project.html"> Projects</a></li>
-                <li><a href="contact.html"> Contact Me</a></li>
-            </ul>
-        </div>
-    </nav>
-</header>
+            <div class="right">
+                <ul id="nav-links">
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="resume.html"> Resume</a></li>
+                    <li><a href="project.html"> Projects</a></li>
+                    <li><a href="contact.html"> Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
 
     <main>
@@ -45,7 +47,7 @@
                 <div>I’m passionate about</div>
                 <span id="element"></span>
                 <br>
-                
+
             </div>
 
             <div class="rightsection">
@@ -56,20 +58,99 @@
         <hr>
         <h2 class="aboutside">About Me..</h2>
 
-        <div class="aboutcard-flex">
+        <div class="aboutcard-flex hidden">
             <div class="about-image">
                 <img src="image/rishikesh.jpg" alt="Divyanshu Negi" />
             </div>
             <div class="about-text">
-                <p>Hi, I’m <strong>Divyanshu Negi</strong>. I am a BCA student who likes building websites and web apps using HTML, CSS, JavaScript, and MySQL. I’m excited to
-learn new web development technologies and want to start my career as a web developer, contributng to real
-projects while growing my skills.</p>
+                <p>Hi, I’m <strong>Divyanshu Negi</strong>.a BCA graduate passionate about Web
+                    Development and Artificial Intelligence. I enjoy building responsive websites and working on
+                    projects that help me learn and grow. I’m always excited to explore new technologies, improve my
+                    skills, and create meaningful digital experiences.
+                </p>
 
                 <a href="about.html">
                     <button id="about1">Know More..</button>
                 </a>
             </div>
         </div>
+
+        <hr>
+        <section id="projects" class="projects-section hidden">
+            <h2>Projects</h2>
+
+            <div class="project-card hidden">
+                <div class="project-image">
+                    <img src="image/music.png" alt="Music Website Project">
+                </div>
+                <div class="project-info">
+                    <h3>🎵 Music Website</h3>
+                    <p>A responsive music site made using HTML, CSS, JavaScript, PHP, and MySQL. It includes
+                        login/signup, form
+                        validation, a custom audio player with play/pause, next/previous, shuffle, download, and search
+                        features.
+                        Works smoothly on desktop and mobile devices.</p>
+                    <a href="https://musicstep.infinityfreeapp.com" target="_blank" class="project-link">Visit Site</a>
+                </div>
+            </div>
+
+            <div class="project-card hidden">
+                <div class="project-image">
+                    <img src="image/disaster.png" alt="Disaster Management System">
+                </div>
+                <div class="project-info">
+                    <h3>AI-Based Disaster Management System</h3>
+                    <p>Developed an AI-Based Disaster Management and Prediction System that analyzes historical disaster
+                        data and
+                        predicts future disaster occurrences using an LSTM deep learning model. The project involved
+                        data
+                        preprocessing, normalization, and time-series forecasting using Python, TensorFlow, Pandas, and
+                        NumPy.
+                        Additionally, designed and deployed an interactive web application to provide disaster insights,
+                        prediction
+                        results, and support data-driven decision-making.
+                    </p>
+                    <a href="https://divyanshu3030.github.io/Disaster-management/" target="_blank"
+                        class="project-link">Visit
+                        Site</a>
+                </div>
+            </div>
+
+            <div class="project-card hidden">
+                <div class="project-image">
+                    <img src="image/traffic.png" alt="Road Accident Prediction System">
+                </div>
+                <div class="project-info">
+                    <h3>AI-Based Road Accident Prediction System</h3>
+                    <p>Developed a machine learning-based road accident prediction system using Python, Random Forest,
+                        and LSTM
+                        models to estimate accident risk based on factors such as weather conditions, road conditions,
+                        driver details,
+                        and traffic controls. Performed data cleaning, preprocessing, feature encoding, and model
+                        training using
+                        Pandas, NumPy, Scikit-learn, and TensorFlow. The system provides real-time accident probability
+                        predictions
+                        and risk analysis to support safer driving decisions.
+                    </p>
+                    <a href=" https://divyanshu3030.github.io/trafficprediction/" target="_blank"
+                        class="project-link">Visit
+                        Site</a>
+                </div>
+            </div>
+
+            <div class="project-card hidden">
+                <div class="project-image">
+                    <img src="image/tictac.png" alt="Tic Tac Toe Game">
+                </div>
+                <div class="project-info">
+                    <h3>🎮 Tic Tac Toe Game</h3>
+                    <p>A simple two-player game built using HTML, CSS, and JavaScript. It shows win/draw messages and
+                        includes a
+                        reset button. The layout is responsive and works well on all screen sizes.</p>
+                    <a href="https://divyanshugame.rf.gd" target="_blank" class="project-link">Play Game</a>
+                </div>
+            </div>
+        </section>
 
         <hr>
 
@@ -84,21 +165,34 @@ projects while growing my skills.</p>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-            strings: ['Video Editing', 'Web Designer', 'Web Developer!...'],
+            strings: ['Web Developer', 'Web Designer', 'Machine Learning', 'Artificial Intelligence!...'],
             typeSpeed: 50,
         });
 
-        
-    function toggleMenu() {
-        document.getElementById("nav-links").classList.toggle("show");
-    }
+
+        function toggleMenu() {
+            document.getElementById("nav-links").classList.toggle("show");
+        }
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("show");
+                } else {
+                    entry.target.classList.remove("show");
+                }
+            });
+        }, {
+            threshold: 0.2
+        });
+
+        document.querySelectorAll(".hidden").forEach((el) => {
+            observer.observe(el);
+        });
 
 
     </script>
 
 </body>
 
-
 </html>
-
-
