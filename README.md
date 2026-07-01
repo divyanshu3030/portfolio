@@ -8,7 +8,7 @@ The website is designed to provide recruiters and visitors with an overview of m
 
 # 🌟 Live Demo
 
-**Portfolio Website:** *(Add your deployed portfolio link here)*
+**Portfolio Website:** https://divyanshu3030.github.io/portfolio/
 
 ---
 
@@ -34,7 +34,7 @@ The website is designed to provide recruiters and visitors with an overview of m
 * CSS3
 * JavaScript (ES6)
 * Typed.js
-* Intersection Observer API
+
 
 ---
 
@@ -156,6 +156,9 @@ Features:
 
 Visitors can download the latest resume directly from the portfolio.
 
+<img width="1498" height="637" alt="Screenshot 2026-07-01 111624" src="https://github.com/user-attachments/assets/6fc5731c-55a3-48b5-b523-709f391749f4" />
+
+
 ---
 
 ## 📧 Contact
@@ -241,7 +244,6 @@ The website is optimized for:
 
 <img width="1877" height="893" alt="Screenshot 2026-07-01 111604" src="https://github.com/user-attachments/assets/a6016f97-b387-44e1-92b5-601efb971703" />
 
-<img width="1498" height="637" alt="Screenshot 2026-07-01 111624" src="https://github.com/user-attachments/assets/da336279-abe8-468f-b2c6-605e85c65bd4" />
 
 
 
