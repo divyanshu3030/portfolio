@@ -225,21 +225,6 @@ The website is optimized for:
 
 ---
 
-# 🔮 Future Improvements
-
-* 🌙 Dark / Light Mode
-* 📬 Contact Form with Email Integration
-* 🌐 Multi-language Support
-* 📝 Blog Section
-* 📊 GitHub Contribution Graph
-* 🏆 Certificates Section
-* 💼 Experience Timeline
-* 🔗 Social Media Integration
-* ⚛️ React / Next.js Version
-* 📈 Visitor Analytics
-
----
-
 <img width="1742" height="717" alt="Screenshot 2026-07-01 111557" src="https://github.com/user-attachments/assets/12321243-e65e-46a3-a374-ffebe10996bf" />
 
 <img width="1877" height="893" alt="Screenshot 2026-07-01 111604" src="https://github.com/user-attachments/assets/a6016f97-b387-44e1-92b5-601efb971703" />
